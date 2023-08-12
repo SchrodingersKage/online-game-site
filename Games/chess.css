@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 12vh;
+    height: 12vh;
+    text-align: center;
+    font-size: 9vh;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.selected {
+    background-color: #ffcc00;
+}
+
+.valid-move {
+    background-color: #66ff66;
+}
