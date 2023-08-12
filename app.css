@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+nav {
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+section {
+    display: none;
+}
+#bio.active,
+#games.active,
+#projects.active {
+    display: block;
+}
